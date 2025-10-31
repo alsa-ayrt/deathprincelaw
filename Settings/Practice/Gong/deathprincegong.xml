@@ -1,0 +1,81 @@
+<Gongs><List>
+	<Gong Name="death_prince">   <!-- 错误的功法-->  
+		<DisplayName>DEath Prince</DisplayName>
+		<Desc>Herdeiro da morte</Desc>
+		<SelectDesc>Está pronto para obter os poderes da morte?</SelectDesc>
+		<FiveBaseNeed>2, 2, 2, 2, 2</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Hide>0</Hide>
+		
+		<IllustratedHandLabel>Souki</IllustratedHandLabel>
+		<Stages>
+			<Stage Name="nascer" Level="3">
+				<DisplayName>Nascer</DisplayName>
+				<Value>1000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Curso</DisplayName>
+                        <Desc>Entendo o curso da vida e da morte.</Desc>
+                        <CostTime>100</CostTime>
+                        <SuccessChange>"100"</SuccessChange>
+                        <FailedChangeAdd>0.9</FailedChangeAdd>
+                        <AddMaxAge>10</AddMaxAge>
+                        <AddLingMax>4500.0</AddLingMax>
+                        <AddLingAbsorbSpeed>50.0</AddLingAbsorbSpeed>
+                        <AddModifier>0.05</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="dificuldades" Level="6">
+				<DisplayName>Dificuldades</DisplayName>
+				<Value>2000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>Crescer</DisplayName>
+                        <Desc>Superar as dificuldades da vida.</Desc>
+                        <CostTime>100</CostTime>
+                        <SuccessChange>"90"</SuccessChange>
+                        <FailedChangeAdd>0.9</FailedChangeAdd>
+                        <AddMaxAge>100</AddMaxAge>
+                        <AddLingMax>250000.0</AddLingMax>
+                        <AddLingAbsorbSpeed>70.0</AddLingAbsorbSpeed>
+					</Neck>
+				</Necks>
+			</Stage>
+            <Stage Name="morte" Level="9">
+				<DisplayName>Morte</DisplayName>
+				<Value>3000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Superar</DisplayName>
+                        <Desc>Enfrentar e superar a morte.</Desc>
+                        <CostTime>100</CostTime>
+                        <SuccessChange>"80"</SuccessChange>
+                        <FailedChangeAdd>0.9</FailedChangeAdd>
+                        <AddMaxAge>1000.0</AddMaxAge>
+                        <AddLingMax>1000000.0</AddLingMax>
+                        <AddLingAbsorbSpeed>100.0</AddLingAbsorbSpeed>
+					</Neck>
+				</Necks>
+			</Stage>
+            <Stage Name="reinado" Level="12">
+				<DisplayName>Reinado</DisplayName>
+				<Value>4000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Masteria</DisplayName>
+                        <Desc>Alcançar o domínio sobre a morte.</Desc>
+                        <CostTime>100</CostTime>
+                        <SuccessChange>"70"</SuccessChange>
+                        <FailedChangeAdd>0.9</FailedChangeAdd>
+                        <AddMaxAge>2000.0</AddMaxAge>
+                        <AddLingMax>1000000.0</AddLingMax>
+                        <AddLingAbsorbSpeed>150.0</AddLingAbsorbSpeed>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+		</Stages>
+	</Gong>
+</List></Gongs>
