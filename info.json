@@ -1,0 +1,9 @@
+{
+	"Name":"death_prince",		
+	"DisplayName":"Príncipe da Morte", 
+	"Desc":"Técnicas para o domínio da morte.",
+	"GameVersion":1,	
+	"Version":1,			
+	"Author":"alsa-ayrt",					
+	"IncreasedDesc":"Morte, mortes e mortíferas"	
+}
