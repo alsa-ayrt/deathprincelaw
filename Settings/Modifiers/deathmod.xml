@@ -1,0 +1,117 @@
+<ModifierDefs><List>
+	<Modifier Name="death1" Type="Normal">
+		<DisplayName>Nascermod</DisplayName>
+		<Desc>Alguns aumentos</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>0</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MoveSpeed" AddV="40"/>
+            <li Name="WorldMapFlySpeedAddP" AddV="3"/>
+            <li Name="ComfyTMax" AddV="25"/>
+            <li Name="ToleranceTMax" AddV="150"/>
+            <li Name="ComfyTMin" AddV="-15"/>
+            <li Name="ToleranceTMin" AddV="-40"/>
+            <li Name="RecoveryPower" AddV="50"/>
+            <li Name="PainTolerance" AddV="50"/>
+            <li Name="NpcFight_FabaoCoolDownAddP" AddV="-0.5"/>
+            <li Name="NpcFight_FabaoFlySpeedAddP" AddV="2"/>
+            <li Name="NpcFight_FabaoTurnSpeedAddP" AddV="2"/>
+            <li Name="NpcFight_FabaoLingRecoverK" AddV="5"/>
+            <li Name="NpcFight_FabaoLingRecoverAddP" AddP="2.5"/>
+            <li Name="NpcFight_FabaoPowerAddP" AddP="2.5"/>
+            <li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>
+            <li Name="DeepPracticeSpeedSpecialCoefficient" AddV="0.5"/>
+            <li Name="IntelligenceSkillEXPConstant" AddV="5"/>
+            <li Name="MindStateBaseValue" AddV="30"/>
+            <li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="death2" Type="Normal">
+		<DisplayName>crescermod</DisplayName>
+		<Desc>Alguns aumentos 2</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>0</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MoveSpeed" AddV="40"/>
+            <li Name="WorldMapFlySpeedAddP" AddV="5"/>
+            <li Name="ComfyTMax" AddV="40"/>
+            <li Name="ToleranceTMax" AddV="350"/>
+            <li Name="ComfyTMin" AddV="-25"/>
+            <li Name="ToleranceTMin" AddV="-40"/>
+            <li Name="RecoveryPower" AddV="60"/>
+            <li Name="PainTolerance" AddV="60"/>
+            <li Name="NpcFight_FabaoCoolDownAddP" AddV="-0.5"/>
+            <li Name="NpcFight_FabaoFlySpeedAddP" AddP="5"/>
+            <li Name="NpcFight_FabaoTurnSpeedAddP" AddP="5"/>
+            <li Name="NpcFight_FabaoLingRecoverK" AddP="10"/>
+            <li Name="NpcFight_FabaoLingRecoverAddP" AddP="50"/>
+            <li Name="NpcFight_FabaoPowerAddP" AddP="50"/>
+            <li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>
+            <li Name="DeepPracticeSpeedSpecialCoefficient" AddV="0.5"/>
+            <li Name="IntelligenceSkillEXPConstant" AddV="5"/>
+            <li Name="MindStateBaseValue" AddV="30"/>
+            <li Name="NpcFight_FabaoNum" AddV="2"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="death3" Type="Normal">
+		<DisplayName>crescermod</DisplayName>
+		<Desc>Alguns aumentos 2</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>0</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MoveSpeed" AddV="40"/>
+            <li Name="WorldMapFlySpeedAddP" AddV="5"/>
+            <li Name="ComfyTMax" AddV="40"/>
+            <li Name="ToleranceTMax" AddV="950"/>
+            <li Name="ComfyTMin" AddV="-25"/>
+            <li Name="ToleranceTMin" AddV="-50"/>
+            <li Name="RecoveryPower" AddV="60"/>
+            <li Name="PainTolerance" AddV="60"/>
+            <li Name="NpcFight_FabaoCoolDownAddP" AddV="-0.5"/>
+            <li Name="NpcFight_FabaoFlySpeedAddP" AddP="2"/>
+            <li Name="NpcFight_FabaoTurnSpeedAddP" AddP="2"/>
+            <li Name="NpcFight_FabaoLingRecoverK" AddP="5"/>
+            <li Name="NpcFight_FabaoLingRecoverAddP" AddP="100"/>
+            <li Name="NpcFight_FabaoPowerAddP" AddP="100"/>
+            <li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>
+            <li Name="DeepPracticeSpeedSpecialCoefficient" AddV="0.5"/>
+            <li Name="IntelligenceSkillEXPConstant" AddV="5"/>
+            <li Name="MindStateBaseValue" AddV="30"/>
+            <li Name="NpcFight_FightSkillSoul" AddV="9"/>
+            <li Name="NpcFight_FabaoNum" AddV="2"/>
+            <li Name="NeckCountdownAddV" AddV="999999"/>
+		</Properties>
+	</Modifier> 
+    <Modifier Name="death4" Type="Normal">
+		<DisplayName>crescermod</DisplayName>
+		<Desc>Alguns aumentos 2</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>0</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MoveSpeed" AddV="40"/>
+            <li Name="WorldMapFlySpeedAddP" AddV="5"/>
+            <li Name="ComfyTMax" AddV="60"/>
+            <li Name="ToleranceTMax" AddV="2000"/>
+            <li Name="ComfyTMin" AddV="-30"/>
+            <li Name="ToleranceTMin" AddV="-70"/>
+            <li Name="RecoveryPower" AddV="60"/>
+            <li Name="PainTolerance" AddV="60"/>
+            <li Name="NpcFight_FabaoCoolDownAddP" AddV="-0.5"/>
+            <li Name="NpcFight_FabaoFlySpeedAddP" AddP="2"/>
+            <li Name="NpcFight_FabaoTurnSpeedAddP" AddP="2"/>
+            <li Name="NpcFight_FabaoLingRecoverK" AddP="5"/>
+            <li Name="NpcFight_FabaoLingRecoverAddP" AddP="200"/>
+            <li Name="NpcFight_FabaoPowerAddP" AddP="200"/>
+            <li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>
+            <li Name="DeepPracticeSpeedSpecialCoefficient" AddV="0.5"/>
+            <li Name="IntelligenceSkillEXPConstant" AddV="5"/>
+            <li Name="MindStateBaseValue" AddV="40"/>
+            <li Name="NeckCountdownAddV" AddV="9999999"/>
+		</Properties>
+	</Modifier>  
+    
+</List></ModifierDefs>

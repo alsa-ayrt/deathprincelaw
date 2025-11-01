@@ -1,0 +1,14 @@
+<Esotericas><List>
+    <Esoterica Name="soulsoil_1">
+		<DisplayName>Solo das almas</DisplayName>
+		<StarLevel>1</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>Crie solos espirituais</Desc>
+		<EffectDesc>Gaste uma semente da fortuna para criar solo espiritual</EffectDesc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Magics>
+			<li>BuildLing</li>
+		</Magics>
+	</Esoterica>
+</List></Esotericas>

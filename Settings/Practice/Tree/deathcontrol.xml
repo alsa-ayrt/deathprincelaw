@@ -1,0 +1,98 @@
+<SkillTree><List>	
+	<Node Name="deathart1" Gong="death_prince">
+		<Esoterica>Magic_MakeHorse_1</Esoterica>
+		<DisplayName>Soul Slave</DisplayName>
+		<Level>Qi</Level>
+		<Index>0</Index>
+	<!--	<Layers>
+			<li>Gong1_a1_2</li>
+			<li>Gong1_a1_3</li>
+		</Layers>-->
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+    <Node Name="deathart2" Gong="death_prince">
+		<Esoterica>Magic_AbsorbGong_8_1</Esoterica>
+		<DisplayName>Acalmar</DisplayName>
+		<Level>Qi</Level>
+		<Index>1</Index>
+	<!--	<Layers>
+			<li>Gong1_a1_2</li>
+			<li>Gong1_a1_3</li>
+		</Layers>-->
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="deathart3" Gong="death_prince">
+		<Esoterica>Magic_ZaoHuaSuTi</Esoterica>
+		<DisplayName>Renascer</DisplayName>
+		<Level>Dan2</Level>
+		<Index>0</Index>
+	<!--	<Layers>
+			<li>Gong1_a1_2</li>
+			<li>Gong1_a1_3</li>
+		</Layers>-->
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="deathart4" Gong="death_prince">
+		<Esoterica>soulsoil_1</Esoterica>
+		<DisplayName>Solo Espiritual</DisplayName>
+		<Level>God</Level>
+		<Index>0</Index>
+	<!--	<Layers>
+			<li>Gong1_a1_2</li>
+			<li>Gong1_a1_3</li>
+		</Layers>-->
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+</List></SkillTree>

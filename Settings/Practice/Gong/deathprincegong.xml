@@ -6,72 +6,80 @@
 		<FiveBaseNeed>2, 2, 2, 2, 2</FiveBaseNeed>
 		<SkillSetName></SkillSetName>
 		<ElementKind>None</ElementKind>
-		<Hide>0</Hide>
+		<Hide>1</Hide>
 		
-		<IllustratedHandLabel>Souki</IllustratedHandLabel>
 		<Stages>
 			<Stage Name="nascer" Level="3">
 				<DisplayName>Nascer</DisplayName>
-				<Value>1000</Value>
+				<Value>2000</Value>
 				<Necks>
 					<Neck Location="1" Kind="Chance">
 						<DisplayName>Curso</DisplayName>
                         <Desc>Entendo o curso da vida e da morte.</Desc>
                         <CostTime>100</CostTime>
-                        <SuccessChange>"100"</SuccessChange>
-                        <FailedChangeAdd>0.9</FailedChangeAdd>
+                        <SuccessChange>Physique_1_5_25</SuccessChange>
                         <AddMaxAge>10</AddMaxAge>
-                        <AddLingMax>4500.0</AddLingMax>
-                        <AddLingAbsorbSpeed>50.0</AddLingAbsorbSpeed>
-                        <AddModifier>0.05</AddModifier>
+                        <AddLingMax>15000.0</AddLingMax>
+                        <AddLingAbsorbSpeed>150.0</AddLingAbsorbSpeed>
+                        <AddModifier>death1</AddModifier>
 					</Neck>
 				</Necks>
 			</Stage>
 			<Stage Name="dificuldades" Level="6">
 				<DisplayName>Dificuldades</DisplayName>
-				<Value>2000</Value>
+				<Value>30000</Value>
 				<Necks>
 					<Neck Location="1" Kind="Gold">
 						<DisplayName>Crescer</DisplayName>
                         <Desc>Superar as dificuldades da vida.</Desc>
                         <CostTime>100</CostTime>
-                        <SuccessChange>"90"</SuccessChange>
-                        <FailedChangeAdd>0.9</FailedChangeAdd>
+                        <SuccessChange>Physique_1_5_25</SuccessChange>
                         <AddMaxAge>100</AddMaxAge>
                         <AddLingMax>250000.0</AddLingMax>
-                        <AddLingAbsorbSpeed>70.0</AddLingAbsorbSpeed>
+                        <AddLingAbsorbSpeed>300.0</AddLingAbsorbSpeed>
+                        <AddModifier>Gong_Gold</AddModifier>
 					</Neck>
 				</Necks>
 			</Stage>
             <Stage Name="morte" Level="9">
 				<DisplayName>Morte</DisplayName>
-				<Value>3000</Value>
+				<Value>500000</Value>
 				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Sofrer</DisplayName>
+                        <Desc>Sofra a morte.</Desc>
+                        <CostTime>100</CostTime>
+                        <SuccessChange>Physique_1_5_25</SuccessChange>
+                        <AddMaxAge>1000.0</AddMaxAge>
+                        <AddLingMax>10000000.0</AddLingMax>
+                        <AddLingAbsorbSpeed>2000.0</AddLingAbsorbSpeed>
+                        <AddModifier>death2</AddModifier>
+					</Neck>
 					<Neck Location="1" Kind="Chance">
 						<DisplayName>Superar</DisplayName>
                         <Desc>Enfrentar e superar a morte.</Desc>
                         <CostTime>100</CostTime>
-                        <SuccessChange>"80"</SuccessChange>
-                        <FailedChangeAdd>0.9</FailedChangeAdd>
+                        <SuccessChange>Physique_1_5_25</SuccessChange>
                         <AddMaxAge>1000.0</AddMaxAge>
-                        <AddLingMax>1000000.0</AddLingMax>
-                        <AddLingAbsorbSpeed>100.0</AddLingAbsorbSpeed>
+                        <AddLingMax>10000000.0</AddLingMax>
+                        <AddLingAbsorbSpeed>2000.0</AddLingAbsorbSpeed>
+                        <AddModifier>death3</AddModifier>
 					</Neck>
 				</Necks>
 			</Stage>
             <Stage Name="reinado" Level="12">
 				<DisplayName>Reinado</DisplayName>
-				<Value>4000</Value>
+				<Value>1000000</Value>
 				<Necks>
-					<Neck Location="1" Kind="Chance">
+					<Neck Location="1" Kind="God">
 						<DisplayName>Masteria</DisplayName>
                         <Desc>Alcançar o domínio sobre a morte.</Desc>
                         <CostTime>100</CostTime>
-                        <SuccessChange>"70"</SuccessChange>
-                        <FailedChangeAdd>0.9</FailedChangeAdd>
+                        <SuccessChange>Physique_1_5_25</SuccessChange>
                         <AddMaxAge>2000.0</AddMaxAge>
-                        <AddLingMax>1000000.0</AddLingMax>
-                        <AddLingAbsorbSpeed>150.0</AddLingAbsorbSpeed>
+                        <AddLingMax>1500000.0</AddLingMax>
+                        <AddLingAbsorbSpeed>10000.0</AddLingAbsorbSpeed>
+                        <AddModifier>death4</AddModifier>
 					</Neck>
 				</Necks>
 			</Stage>

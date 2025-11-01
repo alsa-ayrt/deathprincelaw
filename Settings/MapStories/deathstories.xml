@@ -1,0 +1,40 @@
+<Stories><List>
+
+	<Story Name="death_gong" Parent="BaseFillingStory">
+		 <DisplayName>Realeza Morbida</DisplayName>
+        <Desc>[NAME] foi até a terra putrida e nobre, lá encontrou um esqueleto coroado, envolto de fumaças etéreas</Desc>
+        <Selections>
+			<li>
+				<Display>Pegar coroa</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 4
+				]]>
+				</Condition>
+                <Tip>Core Shaping</Tip>
+				<OKResult>
+				<![CDATA[	
+                me:AddMsg(XT("[NAME] conseguiu pegar a coroa e informaçoes sobre um poder esquecido entram em sua mente."));
+                me:UnLockGong("death_prince");
+                story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] não suporta a fumaça de morte recua, se machucando no processo."));
+                me:AddDamgeFromCache(story.DamageCache,4);
+				]]>
+				</NOResult>
+			</li>
+			 <li>
+                <Display>Ir embora</Display>
+                <OKResult>
+                <![CDATA[	
+                me:AddMsg(XT("[NAME] se pica fora dali."));
+                ]]>
+                </OKResult>
+            </li>
+		</Selections>
+	</Story>
+
+</List></Stories>
